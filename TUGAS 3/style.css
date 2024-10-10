@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.pricing-option {
+    background-color: darkblue;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: 0px 0px 30px black;
+    margin: 20px;
+}
+
+h2 {
+    color: wheat;
+    padding: 10px;
+    background-color: ;
+}
+
+p {
+    color: darkkhaki;
+    padding: 10px;
+    margin: 20px;
+}
+
+img {
+    margin-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+button.signup-btn {
+    background-color: #3498db;
+    color: darkblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.signup-btn:hover {
+    background-color: #2980b9;
+}
+
+.pricing-option:nth-child(2) {
+    background-color: darkblue;
+}
